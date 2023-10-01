@@ -1,10 +1,11 @@
 #more librosa stuff
+#https://librosa.org/doc/latest/tutorial.html
 
 import numpy as np
 import librosa
 
 #file to load
-filename = '../WavFiles/Fanfare60.wav'
+filename = 'WavFiles/Fanfare60.wav'
 
 #load the file
 y, sr = librosa.load(filename)
