@@ -28,7 +28,7 @@ mfcc = librosa.feature.mfcc(y=y,
                             sr=sr, 
                             hop_length=hop_length,
                             n_mfcc=13)
-# output is a numpy.ndarray in shape [n_mfcc, track duration in frames]
+# output is a numpy.nparray in shape [n_mfcc, track duration in frames]
 # hop_length = hop_length ensures that data will be synced 
 # w/ beat tracker
 
